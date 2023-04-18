@@ -1,6 +1,5 @@
 package com.practice.step_definitions;
 
-import com.practice.pages.AfterSearchPage;
 import com.practice.pages.WeatherHomePage;
 import com.practice.utilities.ConfigurationReader;
 import com.practice.utilities.Driver;
@@ -8,7 +7,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 
-public class WeatherHome_StepDef {
+public class WeatherHomeStepDef {
 
     WeatherHomePage weatherHome = new WeatherHomePage();
 

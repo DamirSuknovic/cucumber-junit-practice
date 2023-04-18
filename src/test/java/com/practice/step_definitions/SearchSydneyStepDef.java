@@ -6,7 +6,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class SearchSydney_StepDef {
+public class SearchSydneyStepDef {
 
     WeatherHomePage weatherHome = new WeatherHomePage();
     AfterSearchPage afterSearch = new AfterSearchPage();

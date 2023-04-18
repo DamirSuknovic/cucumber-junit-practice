@@ -5,7 +5,7 @@ import com.practice.pages.HomePage;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
-public class Autocomplete_StepDef extends HomePage {
+public class AutocompleteStepDef extends HomePage {
 
     AutocompletePage autocompletePage = new AutocompletePage();
 
