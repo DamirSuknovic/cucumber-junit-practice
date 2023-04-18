@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage {
+public class PracticeHomePage {
 
-    public HomePage() {
+    public PracticeHomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

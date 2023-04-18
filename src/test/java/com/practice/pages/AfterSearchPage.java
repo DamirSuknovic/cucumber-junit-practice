@@ -20,4 +20,12 @@ public class AfterSearchPage {
     @FindBy(css = "span.orange-text")
     public WebElement timeAndDate;
 
+    @FindBy(xpath = "//a[.=' London, GB']")
+    public WebElement chooseCityLondon;
+
+    @FindBy(xpath = "//span[.='11°C']")
+    public WebElement tempLondonOpenWeather;
+
+
+
 }

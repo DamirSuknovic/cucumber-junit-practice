@@ -1,7 +1,7 @@
 package com.practice.step_definitions;
 
 import com.practice.pages.AddRemovePage;
-import com.practice.pages.HomePage;
+import com.practice.pages.PracticeHomePage;
 import com.practice.utilities.ConfigurationReader;
 import com.practice.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -12,17 +12,17 @@ import org.openqa.selenium.NoSuchElementException;
 
 public class AddRemoveStepDef {
 
-    HomePage homePage = new HomePage();
+    PracticeHomePage practiceHomePage = new PracticeHomePage();
     AddRemovePage addRemovePage = new AddRemovePage();
 
     @Given("user is on Practice Home page")
     public void user_is_on_practice_home_page() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("URL"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("URL1"));
     }
 
     @When("user clicks on AddRemove Elements link")
     public void user_clicks_on_add_remove_elements_link() {
-        homePage.addRemElements.click();
+        practiceHomePage.addRemElements.click();
     }
 
     @And("user click on Add button to add element")

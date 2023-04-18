@@ -1,11 +1,11 @@
 package com.practice.step_definitions;
 
 import com.practice.pages.AutocompletePage;
-import com.practice.pages.HomePage;
+import com.practice.pages.PracticeHomePage;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
-public class AutocompleteStepDef extends HomePage {
+public class AutocompleteStepDef extends PracticeHomePage {
 
     AutocompletePage autocompletePage = new AutocompletePage();
 
