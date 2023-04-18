@@ -25,8 +25,8 @@ public class ComparingTempStepDef {
         weatherHome.mainSearch.sendKeys(city);
         weatherHome.mainSearch.submit();
         afterSearchPage.chooseCityLondon.click();
+        // saving the OpenWeather London temp in variable
         openWeatherLondonTemp = afterSearchPage.tempLondonOpenWeather.getText();
-        System.out.println("OpenWeather London Temp = " + openWeatherLondonTemp);
     }
 
     @When("user opens new tab to search {string} on Google")
@@ -39,9 +39,8 @@ public class ComparingTempStepDef {
         googlePage.cookiesReject.click();
         googlePage.searchBox.sendKeys(city);
         googlePage.searchBox.submit();
-
+        // saving the Google London temp in variable
         googleLondonTemp = afterGoogleSearchPage.googleLondonTemp.getText().concat("°C");
-        System.out.println("Google London Temp = " + googleLondonTemp);
 
     }
 
