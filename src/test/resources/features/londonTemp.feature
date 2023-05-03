@@ -1,7 +1,7 @@
 Feature: London Temperature
   User story: Compare temperature in London on the website against the Google
 
-  @wip
+
   Scenario: User is searching for London temp
     Given user is on OpenWeather Home page
     When user search for 'London' location and save temp
